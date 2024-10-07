@@ -11,7 +11,7 @@ With the above environment variables in place, create a shortcut (e.g. on your _
 **Target:**
 
 ```shell
-C:\Windows\System32\cmd.exe /c start /min "" powershell -NoLogo -NoProfile -WindowStyle Hidden -File "%FIREFOX_PRIVATE_WINDOWS_REPO_PATH%\firefox.ps1"
+%COMSPEC% /c start /min "" powershell -NoLogo -NoProfile -WindowStyle Hidden -File "%FIREFOX_PRIVATE_WINDOWS_REPO_PATH%\firefox.ps1"
 ```
 
 **Start in:**
